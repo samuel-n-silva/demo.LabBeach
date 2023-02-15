@@ -19,7 +19,7 @@ public class Bairros implements Serializable{
 	private Long id;
 	private String nome;
 	private String descrincao;
-	private String populacao;
+	private Integer populacao;
 	
 	public Long getId() {
 		return id;
@@ -39,10 +39,10 @@ public class Bairros implements Serializable{
 	public void setDescrincao(String descrincao) {
 		this.descrincao = descrincao;
 	}
-	public String getPopulacao() {
+	public Integer getPopulacao() {
 		return populacao;
 	}
-	public void setPopulacao(String populacao) {
+	public void setPopulacao(Integer populacao) {
 		this.populacao = populacao;
 	}
 	
