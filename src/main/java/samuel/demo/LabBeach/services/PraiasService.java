@@ -1,0 +1,27 @@
+package samuel.demo.LabBeach.services;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import samuel.demo.LabBeach.models.Praias;
+import samuel.demo.LabBeach.repositories.PraiasRepository;
+
+@Service
+public class PraiasService {
+	@Autowired
+	PraiasRepository praiasRepository;
+	
+	public void salvar(Praias praias) {
+		praiasRepository.save(praias);
+	}
+	
+	public List<Praias> listarPraias(){
+		return (List<Praias>) praiasRepository.findAll();
+	}
+	
+	public void deleteById(Long id) {
+		praiasRepository.deleteById(id);
+    }
+}
