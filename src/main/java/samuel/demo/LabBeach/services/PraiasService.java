@@ -24,4 +24,13 @@ public class PraiasService {
 	public void deleteById(Long id) {
 		praiasRepository.deleteById(id);
     }
+	
+	public Praias atualizar(Long id, Praias praias) {
+		Praias exPraia = praiasRepository.findById(id).get();
+		exPraia.setNome(praias.getNome());
+		exPraia.setStatus(praias.getStatus());
+		exPraia.setAcessibilidade(praias.getAcessibilidade());
+		
+		return praiasRepository.save(exPraia);
+	}
 }

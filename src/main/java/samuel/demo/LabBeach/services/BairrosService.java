@@ -24,4 +24,13 @@ public class BairrosService {
 	public void deleteById(Long id) {
         bairroRepository.deleteById(id);
     }
+	
+	public void atualizar(Long id, Bairros bairros) {
+		Bairros exBairro = bairroRepository.findById(id).get();
+		
+		exBairro.setNome(bairros.getNome());
+		exBairro.setDescrincao(bairros.getDescrincao());
+		exBairro.setPopulacao(bairros.getPopulacao());
+		bairroRepository.save(exBairro);
+	}
 }

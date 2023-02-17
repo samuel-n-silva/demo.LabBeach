@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -15,23 +16,28 @@ import samuel.demo.LabBeach.models.Bairros;
 import samuel.demo.LabBeach.services.BairrosService;
 
 @RestController
-@RequestMapping(value="/api")
+@RequestMapping(value="/api/bairros")
 public class BairrosControllers {
 	@Autowired
 	BairrosService service;
 	
-	@PostMapping(value="/bairros")
+	@PostMapping
 	public void cadastrar(@RequestBody Bairros bairros) {
 		service.salvar(bairros);
 	}
 	
-	@GetMapping(value="/bairros")
+	@GetMapping
 	public List<Bairros> listarBairros(){
 		return service.listarBairros();
 	}
 	
-    @DeleteMapping("/bairros/{id}")
+    @DeleteMapping("/{id}")
     public void excluir(@PathVariable Long id) {
         service.deleteById(id);
     }
+    
+	@PutMapping("/{id}")
+	public void atualizar(@PathVariable Long id, @RequestBody Bairros bairros) {
+		service.atualizar(id, bairros);
+	}
 }
