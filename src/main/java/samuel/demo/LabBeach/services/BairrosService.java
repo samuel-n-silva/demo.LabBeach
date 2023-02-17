@@ -20,4 +20,8 @@ public class BairrosService {
 	public List<Bairros> listarBairros(){
 		return (List<Bairros>) bairroRepository.findAll();
 	}
+	
+	public void deleteById(Long id) {
+        bairroRepository.deleteById(id);
+    }
 }
