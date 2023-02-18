@@ -33,4 +33,8 @@ public class PraiasService {
 		
 		return praiasRepository.save(exPraia);
 	}
+
+	public List<Praias> listarPraiasPorStatus(String status) {
+		return praiasRepository.findByStatus(status);
+	}
 }
