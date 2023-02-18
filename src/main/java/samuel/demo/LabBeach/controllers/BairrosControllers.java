@@ -31,15 +31,15 @@ public class BairrosControllers {
 	    if (isNomeVazioOuNulo) {
 	        return ResponseEntity.badRequest().body("O campo nome é obrigatório.");
 	    } else {
-	    	try {
-	            boolean existe = service.existeBairroComNome(bairros.getNome());
-	            
-	            if (existe) {
-	                return ResponseEntity.badRequest().body("O nome do bairro já existe. Por favor, escolha um nome diferente.");
-	            } else {
-	                service.salvar(bairros);
-	                return ResponseEntity.ok("Bairro cadastrado com sucesso.");
-	            }
+			try {
+				boolean existe = service.existeBairroComNome(bairros.getNome());
+				
+				if (existe) {
+					return ResponseEntity.badRequest().body("O nome do bairro já existe. Por favor, escolha um nome diferente.");
+				} else {
+					service.salvar(bairros);
+					return ResponseEntity.ok("Bairro cadastrado com sucesso.");
+				}
 			} catch (Exception e) {
 				return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Ocorreu um erro ao cadastrar o bairro. Por favor, tente novamente mais tarde.");
 			}
