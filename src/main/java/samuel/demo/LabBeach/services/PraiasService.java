@@ -1,6 +1,7 @@
 package samuel.demo.LabBeach.services;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -40,5 +41,10 @@ public class PraiasService {
 	
 	public List<Praias> listarPraiasComAcessibilidade(boolean acessibilidade) {
 		return praiasRepository.findByacessibilidade(acessibilidade);
+	}
+	
+	public boolean existePraiasComNome(String nome) {
+	    Optional<Praias> praias = praiasRepository.findByNome(nome);
+	    return praias.isPresent();
 	}
 }

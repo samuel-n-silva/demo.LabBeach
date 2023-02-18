@@ -3,6 +3,8 @@ package samuel.demo.LabBeach.controllers;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -38,8 +40,25 @@ public class PraiasControllers {
 	}
 	
 	@PostMapping
-	public void cadastrar(@RequestBody Praias praias) {
-	    service.salvar(praias);
+	public ResponseEntity<String> cadastrar(@RequestBody Praias praias) {
+	    boolean isNomeVazioOuNulo = praias.getNome() == null || praias.getNome().trim().isEmpty();
+
+	    if (isNomeVazioOuNulo) {
+	        return ResponseEntity.badRequest().body("O campo nome é obrigatório.");
+	    } else {
+	    	try {
+	            boolean existe = service.existePraiasComNome(praias.getNome());
+	            
+	            if (existe) {
+	                return ResponseEntity.badRequest().body("O nome da praia já existe. Por favor, escolha um nome diferente.");
+	            } else {
+	                service.salvar(praias);
+	                return ResponseEntity.ok("Praia cadastrada com sucesso.");
+	            }
+			} catch (Exception e) {
+				return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Ocorreu um erro ao cadastrar o bairro. Por favor, tente novamente mais tarde.");
+			}
+	    }
 	}
 	
 	@DeleteMapping("/{id}")
