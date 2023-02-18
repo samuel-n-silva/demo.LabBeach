@@ -42,6 +42,16 @@ public class PraiasControllers {
 	@PostMapping
 	public ResponseEntity<String> cadastrar(@RequestBody Praias praias) {
 	    boolean isNomeVazioOuNulo = praias.getNome() == null || praias.getNome().trim().isEmpty();
+	    boolean isAcessVazioOuNulo = praias.getAcessibilidade() == null;
+	    boolean isStatusVazioOuNulo = praias.getStatus() == null || praias.getStatus().trim().isEmpty();
+	    
+	    if (isStatusVazioOuNulo) {
+	    	return ResponseEntity.badRequest().body("O campo Status é obrigatório.");
+		}
+	    
+	    if (isAcessVazioOuNulo) {
+	    	return ResponseEntity.badRequest().body("O campo Acessibilidade é obrigatório.");
+		}
 
 	    if (isNomeVazioOuNulo) {
 	        return ResponseEntity.badRequest().body("O campo nome é obrigatório.");
