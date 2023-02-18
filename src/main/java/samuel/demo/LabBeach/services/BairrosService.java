@@ -1,6 +1,7 @@
 package samuel.demo.LabBeach.services;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -32,5 +33,10 @@ public class BairrosService {
 		exBairro.setDescrincao(bairros.getDescrincao());
 		exBairro.setPopulacao(bairros.getPopulacao());
 		bairroRepository.save(exBairro);
+	}
+	
+	public boolean existeBairroComNome(String nome) {
+	    Optional<Bairros> bairro = bairroRepository.findByNome(nome);
+	    return bairro.isPresent();
 	}
 }
