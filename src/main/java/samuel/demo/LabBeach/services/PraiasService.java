@@ -37,4 +37,8 @@ public class PraiasService {
 	public List<Praias> listarPraiasPorStatus(String status) {
 		return praiasRepository.findByStatus(status);
 	}
+	
+	public List<Praias> listarPraiasComAcessibilidade(boolean acessibilidade) {
+		return praiasRepository.findByacessibilidade(acessibilidade);
+	}
 }

@@ -32,6 +32,11 @@ public class PraiasControllers {
 	    return service.listarPraiasPorStatus(status);
 	}
 	
+	@GetMapping(value="/acessibilidade")
+	public List<Praias> listarPraias(@RequestParam Boolean acessibilidade) {
+	    return service.listarPraiasComAcessibilidade(acessibilidade);
+	}
+	
 	@PostMapping
 	public void cadastrar(@RequestBody Praias praias) {
 	    service.salvar(praias);

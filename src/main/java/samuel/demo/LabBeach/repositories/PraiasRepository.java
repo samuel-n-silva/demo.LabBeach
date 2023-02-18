@@ -12,5 +12,7 @@ public interface PraiasRepository extends CrudRepository<Praias, Long> {
 	
 	@Query("SELECT p FROM Praias p WHERE p.status = :status")
     List<Praias> findByStatus(@Param("status") String status);
-
+	
+	@Query("SELECT p FROM Praias p WHERE p.acessibilidade = :acessibilidade")
+    List<Praias> findByacessibilidade(@Param("acessibilidade") boolean acessibilidade);
 }
