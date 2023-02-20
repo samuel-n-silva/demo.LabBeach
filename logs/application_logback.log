@@ -4488,3 +4488,475 @@ Unconditional classes:
 2023-02-18 10:37:57 [http-nio-8080-exec-1] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2023-02-18 10:37:57 [http-nio-8080-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
 2023-02-18 10:37:57 [http-nio-8080-exec-1] INFO  : Completed initialization in 6 ms
+2023-02-20 13:58:26 [main] INFO  : Starting Application using Java 17.0.5 with PID 5104 (D:\SENAI\Projeto final modulo 1\demo.LabBeach\target\classes started by samue in D:\SENAI\Projeto final modulo 1\demo.LabBeach)
+2023-02-20 13:58:26 [main] INFO  : No active profile set, falling back to 1 default profile: "default"
+2023-02-20 13:58:28 [main] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-20 13:58:28 [main] INFO  : Finished Spring Data repository scanning in 121 ms. Found 2 JPA repository interfaces.
+2023-02-20 13:58:30 [main] INFO  : Tomcat initialized with port(s): 8080 (http)
+2023-02-20 13:58:30 [main] INFO  : Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-20 13:58:30 [main] INFO  : Starting service [Tomcat]
+2023-02-20 13:58:30 [main] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-20 13:58:31 [main] INFO  : Initializing Spring embedded WebApplicationContext
+2023-02-20 13:58:31 [main] INFO  : Root WebApplicationContext: initialization completed in 4929 ms
+2023-02-20 13:58:32 [main] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-20 13:58:32 [main] INFO  : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-20 13:58:32 [main] WARN  : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-20 13:58:32 [main] INFO  : HikariPool-1 - Starting...
+2023-02-20 13:58:33 [main] INFO  : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@19105a87
+2023-02-20 13:58:33 [main] INFO  : HikariPool-1 - Start completed.
+2023-02-20 13:58:33 [main] INFO  : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-20 13:58:35 [main] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-20 13:58:36 [main] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-20 13:58:38 [main] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-20 13:58:39 [main] INFO  : Starting ProtocolHandler ["http-nio-8080"]
+2023-02-20 13:58:39 [main] INFO  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-20 13:58:40 [main] INFO  : Started Application in 16.405 seconds (process running for 18.808)
+2023-02-20 13:58:46 [http-nio-8080-exec-1] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-20 13:58:46 [http-nio-8080-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2023-02-20 13:58:46 [http-nio-8080-exec-1] INFO  : Completed initialization in 3 ms
+2023-02-20 14:00:40 [main] INFO  : Starting Application using Java 17.0.5 with PID 5528 (D:\SENAI\Projeto final modulo 1\demo.LabBeach\target\classes started by samue in D:\SENAI\Projeto final modulo 1\demo.LabBeach)
+2023-02-20 14:00:40 [main] INFO  : No active profile set, falling back to 1 default profile: "default"
+2023-02-20 14:00:41 [main] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-20 14:00:42 [main] INFO  : Finished Spring Data repository scanning in 98 ms. Found 2 JPA repository interfaces.
+2023-02-20 14:00:43 [main] INFO  : Tomcat initialized with port(s): 8080 (http)
+2023-02-20 14:00:43 [main] INFO  : Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-20 14:00:43 [main] INFO  : Starting service [Tomcat]
+2023-02-20 14:00:43 [main] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-20 14:00:44 [main] INFO  : Initializing Spring embedded WebApplicationContext
+2023-02-20 14:00:44 [main] INFO  : Root WebApplicationContext: initialization completed in 4015 ms
+2023-02-20 14:00:44 [main] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-20 14:00:45 [main] INFO  : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-20 14:00:45 [main] WARN  : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-20 14:00:45 [main] INFO  : HikariPool-1 - Starting...
+2023-02-20 14:00:46 [main] INFO  : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@23f60b7d
+2023-02-20 14:00:46 [main] INFO  : HikariPool-1 - Start completed.
+2023-02-20 14:00:46 [main] INFO  : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-20 14:00:48 [main] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-20 14:00:48 [main] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-20 14:00:50 [main] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-20 14:00:51 [main] INFO  : Starting ProtocolHandler ["http-nio-8080"]
+2023-02-20 14:00:51 [main] INFO  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-20 14:00:51 [main] INFO  : Started Application in 12.834 seconds (process running for 13.811)
+2023-02-20 14:00:57 [http-nio-8080-exec-2] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-20 14:00:57 [http-nio-8080-exec-2] INFO  : Initializing Servlet 'dispatcherServlet'
+2023-02-20 14:00:57 [http-nio-8080-exec-2] INFO  : Completed initialization in 2 ms
+2023-02-20 14:01:23 [http-nio-8080-exec-10] WARN  : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2023-02-20 14:02:14 [main] INFO  : Starting Application using Java 17.0.5 with PID 12240 (D:\SENAI\Projeto final modulo 1\demo.LabBeach\target\classes started by samue in D:\SENAI\Projeto final modulo 1\demo.LabBeach)
+2023-02-20 14:02:14 [main] INFO  : No active profile set, falling back to 1 default profile: "default"
+2023-02-20 14:02:16 [main] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-20 14:02:16 [main] INFO  : Finished Spring Data repository scanning in 133 ms. Found 2 JPA repository interfaces.
+2023-02-20 14:02:18 [main] INFO  : Tomcat initialized with port(s): 8080 (http)
+2023-02-20 14:02:18 [main] INFO  : Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-20 14:02:18 [main] INFO  : Starting service [Tomcat]
+2023-02-20 14:02:18 [main] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-20 14:02:18 [main] INFO  : Initializing Spring embedded WebApplicationContext
+2023-02-20 14:02:18 [main] INFO  : Root WebApplicationContext: initialization completed in 3596 ms
+2023-02-20 14:02:19 [main] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-20 14:02:19 [main] INFO  : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-20 14:02:19 [main] WARN  : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-20 14:02:20 [main] INFO  : HikariPool-1 - Starting...
+2023-02-20 14:02:20 [main] INFO  : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@52d96367
+2023-02-20 14:02:20 [main] INFO  : HikariPool-1 - Start completed.
+2023-02-20 14:02:20 [main] INFO  : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-20 14:02:23 [main] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-20 14:02:23 [main] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-20 14:02:24 [main] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-20 14:02:25 [main] INFO  : Starting ProtocolHandler ["http-nio-8080"]
+2023-02-20 14:02:25 [main] INFO  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-20 14:02:25 [main] INFO  : Started Application in 12.225 seconds (process running for 13.134)
+2023-02-20 14:03:45 [main] INFO  : Starting Application using Java 17.0.5 with PID 12292 (D:\SENAI\Projeto final modulo 1\demo.LabBeach\target\classes started by samue in D:\SENAI\Projeto final modulo 1\demo.LabBeach)
+2023-02-20 14:03:45 [main] INFO  : No active profile set, falling back to 1 default profile: "default"
+2023-02-20 14:03:47 [main] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-20 14:03:47 [main] INFO  : Finished Spring Data repository scanning in 76 ms. Found 2 JPA repository interfaces.
+2023-02-20 14:03:49 [main] INFO  : Tomcat initialized with port(s): 8080 (http)
+2023-02-20 14:03:49 [main] INFO  : Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-20 14:03:49 [main] INFO  : Starting service [Tomcat]
+2023-02-20 14:03:49 [main] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-20 14:03:49 [main] INFO  : Initializing Spring embedded WebApplicationContext
+2023-02-20 14:03:49 [main] INFO  : Root WebApplicationContext: initialization completed in 3497 ms
+2023-02-20 14:03:50 [main] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-20 14:03:50 [main] INFO  : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-20 14:03:50 [main] WARN  : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-20 14:03:50 [main] INFO  : HikariPool-1 - Starting...
+2023-02-20 14:03:51 [main] INFO  : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5e37fb82
+2023-02-20 14:03:51 [main] INFO  : HikariPool-1 - Start completed.
+2023-02-20 14:03:51 [main] INFO  : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-20 14:03:53 [main] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-20 14:03:53 [main] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-20 14:03:56 [main] INFO  : Starting ProtocolHandler ["http-nio-8080"]
+2023-02-20 14:03:56 [main] INFO  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-20 14:03:57 [main] INFO  : Started Application in 12.409 seconds (process running for 13.305)
+2023-02-20 14:12:19 [main] INFO  : Starting Application using Java 17.0.5 with PID 14292 (D:\SENAI\Projeto final modulo 1\demo.LabBeach\target\classes started by samue in D:\SENAI\Projeto final modulo 1\demo.LabBeach)
+2023-02-20 14:12:19 [main] INFO  : No active profile set, falling back to 1 default profile: "default"
+2023-02-20 14:12:21 [main] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-20 14:12:21 [main] INFO  : Finished Spring Data repository scanning in 124 ms. Found 2 JPA repository interfaces.
+2023-02-20 14:12:23 [main] INFO  : Tomcat initialized with port(s): 8080 (http)
+2023-02-20 14:12:23 [main] INFO  : Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-20 14:12:23 [main] INFO  : Starting service [Tomcat]
+2023-02-20 14:12:23 [main] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-20 14:12:23 [main] INFO  : Initializing Spring embedded WebApplicationContext
+2023-02-20 14:12:23 [main] INFO  : Root WebApplicationContext: initialization completed in 3859 ms
+2023-02-20 14:12:23 [main] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-20 14:12:24 [main] INFO  : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-20 14:12:24 [main] WARN  : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-20 14:12:24 [main] INFO  : HikariPool-1 - Starting...
+2023-02-20 14:12:24 [main] INFO  : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@63db743d
+2023-02-20 14:12:24 [main] INFO  : HikariPool-1 - Start completed.
+2023-02-20 14:12:25 [main] INFO  : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-20 14:12:27 [main] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-20 14:12:27 [main] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-20 14:12:30 [main] INFO  : Starting ProtocolHandler ["http-nio-8080"]
+2023-02-20 14:12:30 [main] WARN  : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2023-02-20 14:12:30 [main] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-20 14:12:30 [main] INFO  : HikariPool-1 - Shutdown initiated...
+2023-02-20 14:12:30 [main] INFO  : HikariPool-1 - Shutdown completed.
+2023-02-20 14:12:30 [main] INFO  : Pausing ProtocolHandler ["http-nio-8080"]
+2023-02-20 14:12:30 [main] INFO  : Stopping service [Tomcat]
+2023-02-20 14:12:30 [main] INFO  : Stopping ProtocolHandler ["http-nio-8080"]
+2023-02-20 14:12:30 [main] INFO  : Destroying ProtocolHandler ["http-nio-8080"]
+2023-02-20 14:12:30 [main] INFO  : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-02-20 14:12:30 [main] ERROR : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2023-02-20 14:13:41 [main] INFO  : Starting Application using Java 17.0.5 with PID 12520 (D:\SENAI\Projeto final modulo 1\demo.LabBeach\target\classes started by samue in D:\SENAI\Projeto final modulo 1\demo.LabBeach)
+2023-02-20 14:13:41 [main] INFO  : No active profile set, falling back to 1 default profile: "default"
+2023-02-20 14:13:43 [main] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-20 14:13:43 [main] INFO  : Finished Spring Data repository scanning in 85 ms. Found 2 JPA repository interfaces.
+2023-02-20 14:13:45 [main] INFO  : Tomcat initialized with port(s): 8080 (http)
+2023-02-20 14:13:45 [main] INFO  : Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-20 14:13:45 [main] INFO  : Starting service [Tomcat]
+2023-02-20 14:13:45 [main] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-20 14:13:45 [main] INFO  : Initializing Spring embedded WebApplicationContext
+2023-02-20 14:13:45 [main] INFO  : Root WebApplicationContext: initialization completed in 3834 ms
+2023-02-20 14:13:46 [main] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-20 14:13:46 [main] INFO  : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-20 14:13:47 [main] WARN  : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-20 14:13:47 [main] INFO  : HikariPool-1 - Starting...
+2023-02-20 14:13:47 [main] INFO  : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2296127
+2023-02-20 14:13:47 [main] INFO  : HikariPool-1 - Start completed.
+2023-02-20 14:13:48 [main] INFO  : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-20 14:13:50 [main] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-20 14:13:50 [main] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-20 14:13:54 [main] INFO  : Starting ProtocolHandler ["http-nio-8080"]
+2023-02-20 14:13:54 [main] INFO  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-20 14:13:54 [main] INFO  : Started Application in 13.625 seconds (process running for 14.602)
+2023-02-20 14:19:22 [main] INFO  : Starting Application using Java 17.0.5 with PID 14120 (D:\SENAI\Projeto final modulo 1\demo.LabBeach\target\classes started by samue in D:\SENAI\Projeto final modulo 1\demo.LabBeach)
+2023-02-20 14:19:22 [main] INFO  : No active profile set, falling back to 1 default profile: "default"
+2023-02-20 14:19:24 [main] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-20 14:19:24 [main] INFO  : Finished Spring Data repository scanning in 119 ms. Found 2 JPA repository interfaces.
+2023-02-20 14:19:25 [main] INFO  : Tomcat initialized with port(s): 8080 (http)
+2023-02-20 14:19:25 [main] INFO  : Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-20 14:19:25 [main] INFO  : Starting service [Tomcat]
+2023-02-20 14:19:25 [main] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-20 14:19:26 [main] INFO  : Initializing Spring embedded WebApplicationContext
+2023-02-20 14:19:26 [main] INFO  : Root WebApplicationContext: initialization completed in 3675 ms
+2023-02-20 14:19:26 [main] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-20 14:19:26 [main] INFO  : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-20 14:19:27 [main] WARN  : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-20 14:19:27 [main] INFO  : HikariPool-1 - Starting...
+2023-02-20 14:19:27 [main] INFO  : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@b5c902
+2023-02-20 14:19:27 [main] INFO  : HikariPool-1 - Start completed.
+2023-02-20 14:19:27 [main] INFO  : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-20 14:19:30 [main] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-20 14:19:30 [main] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-20 14:19:33 [main] INFO  : Starting ProtocolHandler ["http-nio-8080"]
+2023-02-20 14:19:33 [main] INFO  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-20 14:19:33 [main] INFO  : Started Application in 12.037 seconds (process running for 12.897)
+2023-02-20 14:20:41 [http-nio-8080-exec-1] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-20 14:20:41 [http-nio-8080-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2023-02-20 14:20:41 [http-nio-8080-exec-1] INFO  : Completed initialization in 1 ms
+2023-02-20 14:21:14 [http-nio-8080-exec-10] WARN  : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2023-02-20 14:22:08 [main] INFO  : Starting Application using Java 17.0.5 with PID 7604 (D:\SENAI\Projeto final modulo 1\demo.LabBeach\target\classes started by samue in D:\SENAI\Projeto final modulo 1\demo.LabBeach)
+2023-02-20 14:22:08 [main] INFO  : No active profile set, falling back to 1 default profile: "default"
+2023-02-20 14:22:10 [main] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-20 14:22:10 [main] INFO  : Finished Spring Data repository scanning in 99 ms. Found 2 JPA repository interfaces.
+2023-02-20 14:22:12 [main] INFO  : Tomcat initialized with port(s): 8080 (http)
+2023-02-20 14:22:12 [main] INFO  : Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-20 14:22:12 [main] INFO  : Starting service [Tomcat]
+2023-02-20 14:22:12 [main] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-20 14:22:12 [main] INFO  : Initializing Spring embedded WebApplicationContext
+2023-02-20 14:22:12 [main] INFO  : Root WebApplicationContext: initialization completed in 3663 ms
+2023-02-20 14:22:12 [main] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-20 14:22:12 [main] INFO  : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-20 14:22:13 [main] WARN  : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-20 14:22:13 [main] INFO  : HikariPool-1 - Starting...
+2023-02-20 14:22:14 [main] INFO  : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2296127
+2023-02-20 14:22:14 [main] INFO  : HikariPool-1 - Start completed.
+2023-02-20 14:22:14 [main] INFO  : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-20 14:22:16 [main] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-20 14:22:16 [main] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-20 14:22:19 [main] INFO  : Starting ProtocolHandler ["http-nio-8080"]
+2023-02-20 14:22:19 [main] INFO  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-20 14:22:19 [main] INFO  : Started Application in 11.891 seconds (process running for 12.781)
+2023-02-20 14:23:15 [main] INFO  : Starting Application using Java 17.0.5 with PID 5248 (D:\SENAI\Projeto final modulo 1\demo.LabBeach\target\classes started by samue in D:\SENAI\Projeto final modulo 1\demo.LabBeach)
+2023-02-20 14:23:15 [main] INFO  : No active profile set, falling back to 1 default profile: "default"
+2023-02-20 14:23:17 [main] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-20 14:23:17 [main] INFO  : Finished Spring Data repository scanning in 132 ms. Found 2 JPA repository interfaces.
+2023-02-20 14:23:19 [main] INFO  : Tomcat initialized with port(s): 8080 (http)
+2023-02-20 14:23:19 [main] INFO  : Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-20 14:23:19 [main] INFO  : Starting service [Tomcat]
+2023-02-20 14:23:19 [main] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-20 14:23:19 [main] INFO  : Initializing Spring embedded WebApplicationContext
+2023-02-20 14:23:19 [main] INFO  : Root WebApplicationContext: initialization completed in 3437 ms
+2023-02-20 14:23:19 [main] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-20 14:23:19 [main] INFO  : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-20 14:23:20 [main] WARN  : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-20 14:23:20 [main] INFO  : HikariPool-1 - Starting...
+2023-02-20 14:23:20 [main] INFO  : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2fba0dac
+2023-02-20 14:23:20 [main] INFO  : HikariPool-1 - Start completed.
+2023-02-20 14:23:20 [main] INFO  : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-20 14:23:23 [main] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-20 14:23:23 [main] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-20 14:23:25 [main] INFO  : Starting ProtocolHandler ["http-nio-8080"]
+2023-02-20 14:23:25 [main] INFO  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-20 14:23:25 [main] INFO  : Started Application in 10.989 seconds (process running for 11.882)
+2023-02-20 16:15:52 [main] INFO  : Starting Application using Java 17.0.5 with PID 11880 (D:\SENAI\Projeto final modulo 1\demo.LabBeach\target\classes started by samue in D:\SENAI\Projeto final modulo 1\demo.LabBeach)
+2023-02-20 16:15:52 [main] INFO  : No active profile set, falling back to 1 default profile: "default"
+2023-02-20 16:15:53 [main] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-20 16:15:53 [main] INFO  : Finished Spring Data repository scanning in 75 ms. Found 2 JPA repository interfaces.
+2023-02-20 16:15:54 [main] INFO  : Tomcat initialized with port(s): 8080 (http)
+2023-02-20 16:15:54 [main] INFO  : Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-20 16:15:54 [main] INFO  : Starting service [Tomcat]
+2023-02-20 16:15:54 [main] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-20 16:15:54 [main] INFO  : Initializing Spring embedded WebApplicationContext
+2023-02-20 16:15:54 [main] INFO  : Root WebApplicationContext: initialization completed in 2230 ms
+2023-02-20 16:15:55 [main] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-20 16:15:55 [main] INFO  : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-20 16:15:55 [main] WARN  : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-20 16:15:55 [main] INFO  : HikariPool-1 - Starting...
+2023-02-20 16:15:55 [main] INFO  : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7be38eba
+2023-02-20 16:15:55 [main] INFO  : HikariPool-1 - Start completed.
+2023-02-20 16:15:55 [main] INFO  : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-20 16:15:57 [main] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-20 16:15:57 [main] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-20 16:15:58 [main] INFO  : Starting ProtocolHandler ["http-nio-8080"]
+2023-02-20 16:15:58 [main] INFO  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-20 16:15:58 [main] INFO  : Started Application in 7.219 seconds (process running for 8.017)
+2023-02-20 16:22:14 [main] INFO  : Starting Application using Java 17.0.5 with PID 11124 (D:\SENAI\Projeto final modulo 1\demo.LabBeach\target\classes started by samue in D:\SENAI\Projeto final modulo 1\demo.LabBeach)
+2023-02-20 16:22:14 [main] INFO  : No active profile set, falling back to 1 default profile: "default"
+2023-02-20 16:22:15 [main] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-20 16:22:15 [main] INFO  : Finished Spring Data repository scanning in 65 ms. Found 2 JPA repository interfaces.
+2023-02-20 16:22:16 [main] INFO  : Tomcat initialized with port(s): 8080 (http)
+2023-02-20 16:22:16 [main] INFO  : Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-20 16:22:16 [main] INFO  : Starting service [Tomcat]
+2023-02-20 16:22:16 [main] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-20 16:22:17 [main] INFO  : Initializing Spring embedded WebApplicationContext
+2023-02-20 16:22:17 [main] INFO  : Root WebApplicationContext: initialization completed in 2198 ms
+2023-02-20 16:22:17 [main] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-20 16:22:17 [main] INFO  : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-20 16:22:17 [main] WARN  : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-20 16:22:17 [main] INFO  : HikariPool-1 - Starting...
+2023-02-20 16:22:18 [main] INFO  : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6b6def36
+2023-02-20 16:22:18 [main] INFO  : HikariPool-1 - Start completed.
+2023-02-20 16:22:18 [main] INFO  : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-20 16:22:19 [main] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-20 16:22:19 [main] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-20 16:22:20 [main] INFO  : Starting ProtocolHandler ["http-nio-8080"]
+2023-02-20 16:22:20 [main] INFO  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-20 16:22:21 [main] INFO  : Started Application in 7.134 seconds (process running for 7.766)
+2023-02-20 16:22:28 [http-nio-8080-exec-3] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-20 16:22:28 [http-nio-8080-exec-3] INFO  : Initializing Servlet 'dispatcherServlet'
+2023-02-20 16:22:28 [http-nio-8080-exec-3] INFO  : Completed initialization in 1 ms
+2023-02-20 16:30:23 [main] INFO  : Starting Application using Java 17.0.5 with PID 13388 (D:\SENAI\Projeto final modulo 1\demo.LabBeach\target\classes started by samue in D:\SENAI\Projeto final modulo 1\demo.LabBeach)
+2023-02-20 16:30:23 [main] INFO  : No active profile set, falling back to 1 default profile: "default"
+2023-02-20 16:30:24 [main] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-20 16:30:24 [main] INFO  : Finished Spring Data repository scanning in 78 ms. Found 2 JPA repository interfaces.
+2023-02-20 16:30:25 [main] INFO  : Tomcat initialized with port(s): 8080 (http)
+2023-02-20 16:30:25 [main] INFO  : Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-20 16:30:25 [main] INFO  : Starting service [Tomcat]
+2023-02-20 16:30:25 [main] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-20 16:30:25 [main] INFO  : Initializing Spring embedded WebApplicationContext
+2023-02-20 16:30:25 [main] INFO  : Root WebApplicationContext: initialization completed in 2084 ms
+2023-02-20 16:30:26 [main] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-20 16:30:26 [main] INFO  : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-20 16:30:26 [main] WARN  : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-20 16:30:26 [main] INFO  : HikariPool-1 - Starting...
+2023-02-20 16:30:27 [main] INFO  : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2fba0dac
+2023-02-20 16:30:27 [main] INFO  : HikariPool-1 - Start completed.
+2023-02-20 16:30:27 [main] INFO  : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-20 16:30:28 [main] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-20 16:30:28 [main] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-20 16:30:30 [main] INFO  : Starting ProtocolHandler ["http-nio-8080"]
+2023-02-20 16:30:30 [main] INFO  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-20 16:30:30 [main] INFO  : Started Application in 7.062 seconds (process running for 7.672)
+2023-02-20 16:30:32 [http-nio-8080-exec-1] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-20 16:30:32 [http-nio-8080-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2023-02-20 16:30:32 [http-nio-8080-exec-1] INFO  : Completed initialization in 2 ms
+2023-02-20 16:30:43 [http-nio-8080-exec-8] WARN  : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2023-02-20 16:31:28 [http-nio-8080-exec-1] ERROR : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.EmptyResultDataAccessException: No class samuel.demo.LabBeach.models.Bairros entity with id 402 exists] with root cause
+org.springframework.dao.EmptyResultDataAccessException: No class samuel.demo.LabBeach.models.Bairros entity with id 402 exists
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.lambda$deleteById$0(SimpleJpaRepository.java:171)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.deleteById(SimpleJpaRepository.java:170)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:288)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:136)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:120)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:516)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:628)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:168)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:143)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:163)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:218)
+	at jdk.proxy2/jdk.proxy2.$Proxy110.deleteById(Unknown Source)
+	at samuel.demo.LabBeach.services.BairrosService.deleteById(BairrosService.java:25)
+	at samuel.demo.LabBeach.controllers.HomeControllers.excluirBairro(HomeControllers.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:936)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:737)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-02-20 16:32:08 [http-nio-8080-exec-6] WARN  : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2023-02-20 16:32:20 [main] INFO  : Starting Application using Java 17.0.5 with PID 12492 (D:\SENAI\Projeto final modulo 1\demo.LabBeach\target\classes started by samue in D:\SENAI\Projeto final modulo 1\demo.LabBeach)
+2023-02-20 16:32:20 [main] INFO  : No active profile set, falling back to 1 default profile: "default"
+2023-02-20 16:32:21 [main] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-20 16:32:21 [main] INFO  : Finished Spring Data repository scanning in 70 ms. Found 2 JPA repository interfaces.
+2023-02-20 16:32:22 [main] INFO  : Tomcat initialized with port(s): 8080 (http)
+2023-02-20 16:32:22 [main] INFO  : Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-20 16:32:22 [main] INFO  : Starting service [Tomcat]
+2023-02-20 16:32:22 [main] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-20 16:32:22 [main] INFO  : Initializing Spring embedded WebApplicationContext
+2023-02-20 16:32:22 [main] INFO  : Root WebApplicationContext: initialization completed in 2238 ms
+2023-02-20 16:32:22 [main] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-20 16:32:22 [main] INFO  : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-20 16:32:23 [main] WARN  : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-20 16:32:23 [main] INFO  : HikariPool-1 - Starting...
+2023-02-20 16:32:23 [main] INFO  : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2fba0dac
+2023-02-20 16:32:23 [main] INFO  : HikariPool-1 - Start completed.
+2023-02-20 16:32:23 [main] INFO  : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-20 16:32:25 [main] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-20 16:32:25 [main] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-20 16:32:26 [main] INFO  : Starting ProtocolHandler ["http-nio-8080"]
+2023-02-20 16:32:26 [main] INFO  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-20 16:32:26 [main] INFO  : Started Application in 7.343 seconds (process running for 7.964)
+2023-02-20 16:32:26 [http-nio-8080-exec-3] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-20 16:32:26 [http-nio-8080-exec-3] INFO  : Initializing Servlet 'dispatcherServlet'
+2023-02-20 16:32:26 [http-nio-8080-exec-3] INFO  : Completed initialization in 1 ms
+2023-02-20 16:33:43 [http-nio-8080-exec-5] ERROR : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.util.NoSuchElementException: No value present] with root cause
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at samuel.demo.LabBeach.services.BairrosService.atualizar(BairrosService.java:29)
+	at samuel.demo.LabBeach.controllers.HomeControllers.atualizar(HomeControllers.java:67)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:925)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:734)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)

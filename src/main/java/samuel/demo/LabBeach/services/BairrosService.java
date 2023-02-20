@@ -5,7 +5,6 @@ import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import samuel.demo.LabBeach.models.Bairros;
 import samuel.demo.LabBeach.repositories.BairrosRepository;
 

@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
+
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -15,31 +16,73 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import samuel.demo.LabBeach.models.Bairros;
 import samuel.demo.LabBeach.models.Praias;
+import samuel.demo.LabBeach.services.BairrosService;
 import samuel.demo.LabBeach.services.PraiasService;
 
 @RestController
-@RequestMapping(value="/api/praias")
-public class PraiasControllers {
+@RequestMapping(value="/api")
+public class HomeControllers {
 	@Autowired
-	PraiasService service;
+	BairrosService serviceBairro;
 	
-	@GetMapping
+	@Autowired
+	PraiasService servicePraia;
+	
+	@PostMapping("/bairros")
+	public ResponseEntity<String> cadastrar(@RequestBody Bairros bairros) {
+	    boolean isNomeVazioOuNulo = bairros.getNome() == null || bairros.getNome().trim().isEmpty();
+
+	    if (isNomeVazioOuNulo) {
+	        return ResponseEntity.badRequest().body("O campo nome é obrigatório.");
+	    } else {
+			try {
+				boolean existe = serviceBairro.existeBairroComNome(bairros.getNome());
+				
+				if (existe) {
+					return ResponseEntity.badRequest().body("O nome do bairro já existe. Por favor, escolha um nome diferente.");
+				} else {
+					serviceBairro.salvar(bairros);
+					return ResponseEntity.ok("Bairro cadastrado com sucesso.");
+				}
+			} catch (Exception e) {
+				return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Ocorreu um erro ao cadastrar o bairro. Por favor, tente novamente mais tarde.");
+			}
+	    }
+	}
+	
+	@GetMapping("/bairros")
+	public List<Bairros> listarBairros(){
+		return serviceBairro.listarBairros();
+	}
+	
+    @DeleteMapping("/bairros/{id}")
+    public void excluirBairro(@PathVariable Long id) {
+    	serviceBairro.deleteById(id);
+    }
+    
+	@PutMapping("/bairros/{id}")
+	public void atualizar(@PathVariable Long id, @RequestBody Bairros bairros) {
+		serviceBairro.atualizar(id, bairros);
+	}
+	
+	@GetMapping("/praias")
 	public List<Praias> listarPraias(){
-		return service.listarPraias();
+		return servicePraia.listarPraias();
 	}
 	
-	@GetMapping(value="/status")
+	@GetMapping(value="/praias/status")
 	public List<Praias> listarPraias(@RequestParam String status) {
-	    return service.listarPraiasPorStatus(status);
+	    return servicePraia.listarPraiasPorStatus(status);
 	}
 	
-	@GetMapping(value="/acessibilidade")
+	@GetMapping(value="/praias/acessibilidade")
 	public List<Praias> listarPraias(@RequestParam Boolean acessibilidade) {
-	    return service.listarPraiasComAcessibilidade(acessibilidade);
+	    return servicePraia.listarPraiasComAcessibilidade(acessibilidade);
 	}
 	
-	@PostMapping
+	@PostMapping("/praias")
 	public ResponseEntity<String> cadastrar(@RequestBody Praias praias) {
 	    boolean isNomeVazioOuNulo = praias.getNome() == null || praias.getNome().trim().isEmpty();
 	    boolean isAcessVazioOuNulo = praias.getAcessibilidade() == null;
@@ -57,12 +100,12 @@ public class PraiasControllers {
 	        return ResponseEntity.badRequest().body("O campo nome é obrigatório.");
 	    } else {
 	    	try {
-	            boolean existe = service.existePraiasComNome(praias.getNome());
+	            boolean existe = servicePraia.existePraiasComNome(praias.getNome());
 	            
 	            if (existe) {
 	                return ResponseEntity.badRequest().body("O nome da praia já existe. Por favor, escolha um nome diferente.");
 	            } else {
-	                service.salvar(praias);
+	            	servicePraia.salvar(praias);
 	                return ResponseEntity.ok("Praia cadastrada com sucesso.");
 	            }
 			} catch (Exception e) {
@@ -71,13 +114,13 @@ public class PraiasControllers {
 	    }
 	}
 	
-	@DeleteMapping("/{id}")
-	public void excluir(@PathVariable Long id) {
-		service.deleteById(id);
+	@DeleteMapping("/praias/{id}")
+	public void excluirPraia(@PathVariable Long id) {
+		servicePraia.deleteById(id);
 	}
 	
-	@PutMapping("/{id}")
+	@PutMapping("/praias/{id}")
 	public void atualizar(@PathVariable Long id, @RequestBody Praias praias) {
-		service.atualizar(id, praias);
+		servicePraia.atualizar(id, praias);
 	}
 }

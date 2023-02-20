@@ -2,10 +2,8 @@ package samuel.demo.LabBeach.services;
 
 import java.util.List;
 import java.util.Optional;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import samuel.demo.LabBeach.models.Praias;
 import samuel.demo.LabBeach.repositories.PraiasRepository;
 
