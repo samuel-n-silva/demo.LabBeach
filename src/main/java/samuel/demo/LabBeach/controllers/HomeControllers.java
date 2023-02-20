@@ -16,6 +16,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import samuel.demo.LabBeach.models.Bairros;
 import samuel.demo.LabBeach.models.Praias;
 import samuel.demo.LabBeach.services.BairrosService;
@@ -31,6 +33,14 @@ public class HomeControllers {
 	PraiasService servicePraia;
 	
 	@PostMapping("/bairros")
+	@Operation(
+			description = "Cadastrar Bairro",
+			responses = {
+					@ApiResponse(responseCode = "200", ref = "sucessAPI"),
+					@ApiResponse(responseCode = "400", ref = "badRequestAPI"),
+					@ApiResponse(responseCode = "500", ref = "internalServerErrorAPI")
+			}
+	)
 	public ResponseEntity<String> cadastrar(@RequestBody Bairros bairros) {
 	    boolean isNomeVazioOuNulo = bairros.getNome() == null || bairros.getNome().trim().isEmpty();
 
