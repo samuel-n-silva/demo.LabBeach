@@ -42,6 +42,7 @@ public class HomeControllers {
 			}
 	)
 	public ResponseEntity<String> cadastrar(@RequestBody Bairros bairros) {
+		
 	    boolean isNomeVazioOuNulo = bairros.getNome() == null || bairros.getNome().trim().isEmpty();
 
 	    if (isNomeVazioOuNulo) {
